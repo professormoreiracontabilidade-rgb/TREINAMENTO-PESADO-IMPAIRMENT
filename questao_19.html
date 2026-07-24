@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><title>Questão 19 — Professor Moreira</title><style>
+:root{
+  --bg:#031d16; --bg2:#062d22; --card:#0b3d2e; --card2:#0f513b;
+  --accent:#f4d35e; --accent2:#ffef9f; --text:#f8fff9; --muted:#c9e8d8;
+  --danger:#b7e4c7; --shadow:0 18px 45px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(180deg,var(--bg),var(--bg2));color:var(--text)}
+body{display:flex;justify-content:center}
+.app{width:100%;max-width:560px;min-height:100vh;padding:14px;display:flex;flex-direction:column}
+.header{background:linear-gradient(135deg,#052c20,#0b5138);border:2px solid var(--accent);border-radius:22px;padding:15px 14px;text-align:center;box-shadow:var(--shadow)}
+.brand{font-size:13px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--accent2)}
+.header h1{font-size:20px;line-height:1.25;margin:7px 0 0}
+.progress{height:8px;background:rgba(255,255,255,.13);border-radius:999px;margin:14px 4px 0;overflow:hidden}
+.progress span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#fff3b0);width:20%;transition:.3s}
+.screen{display:none;flex:1;align-items:center;justify-content:center;padding:16px 0}
+.screen.active{display:flex}
+.card{width:100%;background:linear-gradient(180deg,var(--card),#082f24);border:1px solid rgba(255,255,255,.14);border-radius:26px;padding:22px 18px;box-shadow:var(--shadow)}
+.badge{display:inline-block;background:var(--accent);color:#173b2d;font-weight:800;padding:8px 12px;border-radius:999px;font-size:13px}
+h2{font-size:24px;line-height:1.2;margin:16px 0 12px}
+p{font-size:17px;line-height:1.55;color:var(--text)}
+.lead{font-size:18px;color:var(--muted)}
+.question{white-space:pre-line;font-size:17px;line-height:1.55}
+.option{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);padding:13px 14px;border-radius:16px;margin:10px 0;font-size:16px;line-height:1.4}
+.step{background:rgba(255,255,255,.07);border-left:5px solid var(--accent);padding:13px 14px;border-radius:14px;margin:10px 0}
+.step strong{display:block;color:var(--accent2);margin-bottom:5px}
+.answer{font-size:24px;font-weight:800;color:var(--accent2);text-align:center;padding:18px;background:rgba(244,211,94,.12);border:2px solid var(--accent);border-radius:20px}
+.rule{font-size:17px;line-height:1.55;background:rgba(255,255,255,.07);padding:16px;border-radius:18px}
+.controls{display:grid;grid-template-columns:1fr 1.4fr 1fr;gap:10px;position:sticky;bottom:0;padding-top:12px;background:linear-gradient(180deg,transparent 0%,rgba(3,29,22,.95) 35%)}
+button,a.btn{border:0;border-radius:16px;padding:16px 10px;font-size:16px;font-weight:800;cursor:pointer;text-decoration:none;text-align:center}
+button:disabled{opacity:.38}
+.back{background:#d8f3dc;color:#12372a}
+.next{background:var(--accent);color:#173b2d}
+.restart{background:#9ae6b4;color:#12372a}
+.home{display:block;margin-top:12px;background:#174f3b;color:white;border:1px solid rgba(255,255,255,.18)}
+.small{font-size:14px;color:var(--muted)}
+@media(max-width:390px){
+  .app{padding:10px}.card{padding:18px 14px}h2{font-size:21px}
+  p,.question{font-size:16px}.controls{grid-template-columns:1fr 1.2fr 1fr}
+  button{padding:15px 7px;font-size:14px}
+}
+</style></head><body><div class="app"><header class="header"><div class="brand">Curso de Contabilidade Professor Moreira</div><h1>Questão 19 — FGV (Inédita)</h1><div class="progress"><span id="bar"></span></div></header>
+<section class="screen active"><div class="card"><span class="badge">Questão 19 de 20</span><h2>Teste de Recuperabilidade</h2><p class="lead">Questão 19 — FGV (Inédita)</p><div class="rule"><strong>Regra principal:</strong><br>Valor recuperável é o maior entre o valor em uso e o valor justo líquido das despesas de venda.</div></div></section>
+<section class="screen"><div class="card"><span class="badge">Pergunta</span><div class="question">Uma entidade possuía terreno registrado por R$ 150.000. No teste, apurou valor em uso de R$ 148.000, valor justo de R$ 160.000 e despesas de venda de R$ 7.000.
+
+O valor do terreno após o teste será:</div><div class="option">A) R$ 148.000.</div><div class="option">B) R$ 150.000.</div><div class="option">C) R$ 153.000.</div><div class="option">D) R$ 160.000.</div></div></section>
+<section class="screen"><div class="card"><span class="badge">Resolução detalhada</span><h2>Passo a passo</h2><div class="step"><strong>Valor contábil</strong>R$ 150.000</div><div class="step"><strong>Valor justo líquido</strong>R$ 160.000 − R$ 7.000 = R$ 153.000</div><div class="step"><strong>Valor recuperável</strong>Maior entre R$ 148.000 e R$ 153.000 = R$ 153.000</div><div class="step"><strong>Comparação</strong>O valor recuperável supera o valor contábil.</div><div class="step"><strong>Conclusão</strong>Não há perda. O terreno permanece por R$ 150.000.</div></div></section>
+<section class="screen"><div class="card"><span class="badge">Resposta correta</span><h2>Gabarito</h2><div class="answer">B) R$ 150.000.</div><p class="small">Confira a lógica na tela anterior e avance para o resumo.</p></div></section>
+<section class="screen"><div class="card"><span class="badge">Resumo final</span><h2>O que lembrar</h2><p>Valor recuperável superior ao contábil não gera aumento do ativo.</p><div class="rule"><strong>Fórmula-chave:</strong><br>Perda por desvalorização = Valor contábil − Valor recuperável</div><a class="btn home" href="index.html">Voltar à página inicial</a></div></section>
+<nav class="controls"><button class="back" id="back" onclick="move(-1)">← Voltar</button><button class="next" id="next" onclick="move(1)">Avançar →</button><button class="restart" onclick="restart()">↻ Reiniciar</button></nav></div><script>let current=0;const screens=[...document.querySelectorAll('.screen')],back=document.getElementById('back'),next=document.getElementById('next'),bar=document.getElementById('bar');function render(){screens.forEach((s,i)=>s.classList.toggle('active',i===current));back.disabled=current===0;next.disabled=current===screens.length-1;bar.style.width=((current+1)/screens.length*100)+'%';window.scrollTo({top:0,behavior:'smooth'})}function move(s){current=Math.max(0,Math.min(screens.length-1,current+s));render()}function restart(){current=0;render()}document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')move(1);if(e.key==='ArrowLeft')move(-1)});render();</script></body></html>
